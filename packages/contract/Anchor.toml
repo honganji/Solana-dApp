@@ -1,14 +1,14 @@
 [features]
 seeds = false
 skip-lint = false
-[programs.localnet]
-myepicproject = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+[programs.devnet]
+myepicproject = "H5HoVRo9hKERxzhUqjd3T8fJHNddcM6MBuggKe4d3Ex8"
 
 [registry]
 url = "[https://api.apr.dev](https://api.apr.dev/)"
 
 [provider]
-cluster = "Localnet"
+cluster = "devnet"
 wallet = "/Users/toshi/.config/solana/id.json" # YOUR_USERNAMEは自分のPCのユーザー名に置き換えてください
 
 [scripts]
